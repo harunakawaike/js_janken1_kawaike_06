@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけん筋トレ</title>
+
+    <!-- cssファイルの読み込み -->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <!-- バトルイントロスライド -->
+   <div id="intro-screen">
+      <div id="intro-player">
+         <img src="woman-nomal.png" alt="player">
+      </div>
+      <div id="intro-text">🔥💪さあ、今日もナイスマッスル💪🔥</div>
+      <div id="intro-cpu">
+         <img src="cpu-nomal.png" alt="cpu">
+      </div>
+   </div> 
+
+    <h1>じゃんけん筋トレ</h1>
+
+    <!-- スコアボード -->
+     <div id="score-board">
+        <p>Win : <span id="score-win">0</span></p>
+        <p>Draw : <span id="score-draw">0</span></p>
+        <p>Lose : <span id="score-lose">0</span></p>
+     </div>
+    
+    <!-- 対戦エリア -->
+     <div id="battle-area">
+        <div id="player-hand">
+         <img src="woman-nomal.png" alt="nomal" id="player-nomal-img">
+        </div>
+        <p>VS</p>
+        <div id="cpu-hand">
+         <img src="cpu-nomal.png" alt="nomal" id="cpu-nomal-img">
+        </div>
+     </div>
+     
+    <!-- 結果表示 -->
+     <p id="result-text"></p>
+
+     <div id="choice-area">
+        <button id="btn-rock">
+         <img src="rock.png" alt="rock">
+        </button>
+        <button id="btn-scissors">
+         <img src="scissors.png" alt="scissors">
+        </button>
+        <button id="btn-paper">
+         <img src="paper.png" alt="paper">
+        </button>
+     </div>
+
+     <div id="workout-box"></div>
+
+     <button id="reset-btn">Try again!</button>
+
+
+
+ <!-- jQueryの読み込み -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <!-- JavaScriptファイルの読み込み -->
+ <script src="script.js"></script>
+ 
+</body>
+</html>
