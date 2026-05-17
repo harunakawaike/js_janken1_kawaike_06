@@ -5,7 +5,7 @@
 -今日の筋トレのメニューをじゃんけんで決めます。勝ち・負け・あいこで負荷が変わる
 
 ## ③アプリのデプロイURL
-デプロイしている場合はURLを記入（任意）
+(https://harunakawaike.github.io/js_janken1_kawaike_06/)
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: -
